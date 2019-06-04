@@ -78,5 +78,8 @@ Python 3.6.7 | packaged by conda-forge | (default, Nov 21 2018, 03:09:43)
 
 > exit()
 
+## Tips
+
+(1) Add a space after the script name when directly calling a Bash script with the bash_command argument. This is because Airflow tries to apply a Jinja template to it, which will fail.
 
 
